@@ -51,7 +51,7 @@ def main():
 
         col1, col2 = st.columns(2)
         with col1:
-            searchart = st.radio('Selecione pelos sobrenomes', ['Starkey', 'McCartney', 'Lennon', 'Harrison'], horizontal=True)
+            searchart = st.radio('Selecione pelos sobrenomes', ['Starkey', 'McCartney', 'Lennon', 'Harrison'],captions=['Ringo','Paul','John','George'], horizontal=True)
 
         with col2:
             dataresult = writerSearch(searchart)
