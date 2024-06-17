@@ -27,7 +27,7 @@ def main():
 
     with tab1:
         st.header("Bem vindo à base de dados dos Beatles")
-        st.image(image='/Streamlit/Image.webp')
+        st.image(image='Image.webp')
         st.markdown('Projeto feito para estudar a ferramenta Streamlit em conjunto com a biblioteca Pandas')
         st.markdown('Feito por Gustavo Gomes')
 
